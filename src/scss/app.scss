@@ -1,0 +1,132 @@
+$main: #FCAF19;
+
+body {
+  background-color: #1F2734;
+}
+button,
+label,
+.btn {
+  text-transform: capitalize !important;
+}
+span {
+  color: white;
+  margin-right: 10px;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.active{
+  background-color: #2196F3 !important;
+}
+.title {
+  color: white;
+}
+.add-button {
+  margin-left: 14px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  width: 150px;
+}
+.main-color {
+  color: $main;
+}
+.secondary-content {
+  margin: 0px 10px;
+  color: #2196F3;
+}
+.filter-list {
+  margin: 20px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  button {
+    width: 150px;
+    margin: 0px 25px 0px 0px;
+  }
+  .sort {
+     margin-bottom: 20px;
+    span {
+      margin-right: 16px;
+    }
+  }
+}
+.filter {
+  margin-bottom: 20px;
+}
+.second-filter {
+  button.blue {
+    margin-left: 5px;
+  }
+}
+.people-list {
+  color: white;
+}
+table {
+  thead {
+    color: $main;
+    tr {
+      th {
+        font-weight: 400;
+      }
+    }
+  }
+  tbody {
+    color: white;
+    td {
+      button:nth-child(2) {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+li.collection-item {
+  margin: 15px 0px;
+}
+.form {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 40px;
+  margin-top: 40px;
+  width: 600px;
+  h5 {
+    margin-bottom: 40px;
+  }
+  .row {
+    input {
+      background: #3E4A5E;
+      border: 1px solid #3E4A5E !important;
+      box-sizing: border-box;
+      color: white;
+      padding-left: 10px;
+      font-size: 14px;
+      &:focus {
+        box-shadow: none !important;
+      }
+    }
+    .size {
+      input {
+        width: 33.333%;
+        float: left;
+        &:nth-child(1) {
+          margin-right: 22px;
+        }
+      }
+    }
+    .buttons {
+      text-align: right;
+      margin-top: 20px;
+      a {
+        margin-right: 25px;
+      }
+    }
+    label {
+      width: 110px;
+      &:nth-child(2) {
+        margin-right: 22px;
+      }
+    }
+    input[type="radio"]:checked + label {
+      background-color: #2196F3 !important;
+    }
+  }
+}
